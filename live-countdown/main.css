@@ -41,7 +41,7 @@ form{
 }
 
 .time-container{
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 .time{
@@ -71,4 +71,20 @@ form{
 
 .active {
     display: block;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    #intro {
+        font-size: 1.3rem;
+    }
+
+    .main-input {
+        width: 90%;
+        height: 60px;
+    }
+
+    .time {
+        font-size: 10px;
+    }
 }
